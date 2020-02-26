@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+
+
+  <body>
+    <h1>
+      Header 1
+    </h1>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ex nam,
+      id maxime porro sed quasi amet, esse dolorum cupiditate consequuntur.
+      <br />
+      Nemo commodi aspernatur, id eius iure et. Expedita, omnis.
+      <br />
+      <br />
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ipsum
+      recusandae unde, nam, nemo voluptate distinctio tempore vero quos hic
+      maxime accusamus maiores voluptates placeat eius vitae quasi et animi?
+    </p>
+
+    <!BULLETED LIST SECTION>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <!NUMBERED LIST SECTION>
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+
+    <!TABLE SECTION GUIDANCE:
+    The tr tag indicates a new line. 
+    The td tag signals a new cell.>
+
+    <table>
+      <tr>
+          <td>Table Cell One</td>
+          <td>Table Cell Two</td>
+          <td>Table Cell Three</td>
+      </tr>
+
+      <tr>
+          <td>Table Cell Four</td>
+          <td>Table Cell Five</td>
+          <td>Table Cell Six</td>
+      </tr>
+   </table>
+
+   <br>
+
+      <!IMAGE SECTION GUIDANCE: 
+    The src attribute indicates where to find the image. 
+    The alt attribute indicates alternative information if the image is not displayed. 
+    It is useful for SEO because search engines use this information to index an image.
+    The width and height attributes are NOT mandatory, they allow you to set a size for the image. 
+    If only the width attribute is specified, the height attribute will be 
+    proportionally dimensioned and conversely.
+    The srcset attribute allows to provide an image of different size depending on the screen resolution.>
+
+      <img
+        src="myimage.jpg"
+        alt="My image"
+        srcset="HDimage.jpg 2x"
+        width="100"
+        height="100"/>
+
+        <br>
+
+      <!LINKS SECTION GUIDANCE:
+    The href gives us the url to access the site, 
+    The title gives us the title at a glance.
+    The text in the two tags will be the text displayed.>
+
+      <a href="http://google.com" title="Title of the link">Google</a>
+
+      <br/>
+
+      <! LINKS SECTION GUIDANCE - OPTION 2
+    Putting a # sends us directly to the given id.>
+
+      <a href="#anchor" title="Title of the link">My anchor</a>
+
+      <br/>
+
+      <! LINKS SECTION GUIDANCE - OPTION 3
+    The target _blank opens the page in a new tab.>
+
+      <a href="http://google.com" title="Title of the link" target="_blank"
+        >New tab</a
+      
+  </body>
+</html>
